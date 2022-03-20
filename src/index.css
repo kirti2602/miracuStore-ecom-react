@@ -3,6 +3,8 @@
 @import './pages/homepage/HomePage.css';
 @import './components/navbar/NavBar.css'; 
 @import './components/footer/Footer.css';
+@import './components/main/Main.css';
+
 
 *{
   box-sizing: border-box;
@@ -13,35 +15,7 @@
   box-shadow: 5px 5px 10px var(--gray);
 }
 
-.main{
-  position: relative;
-  margin-bottom: 4rem;
-  grid-area: main;
 
-}
-
-.hero-img{
-  height: 31.25rem;
-  width: 100%;
-  opacity: 0.5;
-}
-
-.text-on-hero{
-  position: absolute;
-  top: 0%;
-  left: 20%;
-  right: 20%;
-  text-align: center;
-  color: var(--off-black-typography);
-}
-
-.text-on-hero h1{
-  font-size: 4rem;
-}
-
-.info-btn{
-  background-color: var(--primary-violet) !important;
-}
 
 
 
