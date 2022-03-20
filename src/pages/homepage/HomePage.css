@@ -1,0 +1,12 @@
+.homepage{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "navbar navbar"
+    "main main"
+    "main main"
+    "main main"
+    "footer footer"
+    "footer footer"
+    ;
+    height: 120vh;
+  }
