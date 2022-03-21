@@ -1,8 +1,14 @@
-import React from 'react'
+import React from 'react';
+import './ProductListing.css';
+import NavBar from '../../components/navbar/NavBar';
+import FilterBy from '../../components/filter/FilterBy';
 
 const ProductListing = () => {
   return (
-    <div>ProductListing</div>
+    <>
+      <NavBar />
+      <FilterBy />
+    </>
   )
 }
 

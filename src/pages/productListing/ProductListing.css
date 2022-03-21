@@ -1,0 +1,50 @@
+.homepage{
+    grid-template-columns: 15rem 1fr;
+    grid-template-areas: "navbar navbar"
+    "aside main"
+    "aside main"
+    "aside main"
+    "aside main"
+    "footer footer"
+    ;
+
+}
+
+
+.aside,.rating, .sort-by{
+    display: flex;
+    flex-direction: column;
+}
+
+.aside{
+    grid-area: aside;
+    gap: 2rem;
+    padding: 1rem;
+    border-right: 1px solid var(--off-black-typography);
+    ;
+
+}
+
+.filter{
+    display: flex;
+    justify-content: space-between; 
+}
+
+.filter a{
+text-decoration: underline;
+}
+
+.dismiss .fa-heart{
+border: none;
+font-size: 1.5rem;
+
+}
+
+.dismiss .fa-heart:hover{
+    background-color: transparent;
+}
+
+
+.wishlist-container{
+    padding: 0;
+}
