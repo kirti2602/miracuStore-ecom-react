@@ -6,7 +6,7 @@ const VerticalCard = ({product}) => {
   return (
     <div class="card-inner-body">
       <div class="img-body">
-        <img id="card-img" src={sampleImage} alt="" />
+        <img id="card-img" src={product.imageSource} alt="" />
         <span class="label-badge" id="label-badge">
           Trending
         </span>
@@ -18,16 +18,16 @@ const VerticalCard = ({product}) => {
       <div class="card-info flex">
         <span class="card-title">{product.title}</span> <br />
         <small class="card-rating" id="card-rating">
-          <i class="fas fa-star"></i> 5
+          <i class="fas fa-star"></i> {product.rating}
         </small>
         <div class="price-wishlist flex">
-          <span class="current-price">₹1079</span>
+          <span class="current-price">₹{product.price}</span>
           <small class="previous-price">₹2000</small>
-          <small class="discount">46% off</small>
-          <button class=" btn-wishlist">
-            <i class="fas fa-cart-shopping"></i>
-          </button>
+          <small class="discount">{product.discount}% off</small>
         </div>
+        <button class="btn info-btn btn-wishlist">
+            Add to Cart
+          </button>
       </div>
     </div>
   );

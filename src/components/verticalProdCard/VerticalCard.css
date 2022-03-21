@@ -9,12 +9,6 @@
     row-gap: 2rem;
 }
 
-.btn-wishlist i{
-    color: var(--primary-violet);
-    cursor: pointer;
-    font-size: 1.5rem;
-}
-
 #card-rating{
     margin-right: auto;
     background-color: var(--primary-violet);
@@ -27,5 +21,17 @@
 
 #card-img{
     height: 10rem;
-    background-color: aqua;
+    width: 10rem;
+    object-fit: cover;
+}
+
+.price-wishlist{
+    justify-content: flex-start;
+}
+
+.info-btn{
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    border-radius: 0.2rem;
 }
