@@ -36,6 +36,11 @@ const FilterBy = () => {
           <input type="checkbox" />
           Action Figures
         </div>
+
+        <div className="">
+          <input type="checkbox" />
+          Accessories
+        </div>
       </div>
 
       <div className="rating">
