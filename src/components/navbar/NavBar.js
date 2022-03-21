@@ -8,17 +8,17 @@ const NavBar = () => {
     <nav className="navbar box-shadow">
       <h2 className="brand-name flex">
         <a href="index.html">
-          <i class="fas fa-shopping-bag"></i>
+          <i className="fas fa-shopping-bag"></i>
           miracuStore
         </a>
       </h2>
 
       <div className="nav-links flex">
         <a href="wishlist/wishlist.html">
-          <i class="fas fa-heart"></i>
+          <i className="fas fa-heart"></i>
         </a>
         <a href="cart/cart.html">
-          <i class="fas fa-shopping-cart"></i>
+          <i className="fas fa-shopping-cart"></i>
         </a>
         <a href="login/login.html">
           <p>Login</p>
