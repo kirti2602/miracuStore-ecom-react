@@ -1,0 +1,42 @@
+.card-outer-body{
+    width: min-content;
+    border: 0.5px solid var(--gray);
+}
+
+.wishlist-container{
+    padding: 2rem;
+    column-gap: 2rem;
+    row-gap: 2rem;
+}
+
+#card-rating{
+    margin-right: auto;
+    background-color: var(--primary-violet);
+}
+
+#label-badge{
+    background-color: var(--primary-violet);
+    font-size: 0.8rem;
+}
+
+#card-img{
+    height: 10rem;
+    width: 10rem;
+    object-fit: cover;
+}
+
+.price-wishlist{
+    justify-content: flex-start;
+}
+
+.btn-wishlist{
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    border-radius: 0rem;
+}
+
+.card-outer-body:hover{
+    box-shadow: 0px 0px 0px 2px var(--primary-violet);
+    transition: 0.2s ease-out;
+}

@@ -1,5 +1,6 @@
 import React from "react";
 import "./NavBar.css";
+import {Link} from "react-router-dom"
 
 /*watch router video and include Routes instead of anchor tags*/
 
@@ -7,10 +8,10 @@ const NavBar = () => {
   return (
     <nav className="navbar box-shadow">
       <h2 className="brand-name flex">
-        <a href="index.html">
+        <Link to="/">
           <i className="fas fa-shopping-bag"></i>
           miracuStore
-        </a>
+        </Link>
       </h2>
 
       <div className="nav-links flex">

@@ -1,5 +1,6 @@
 import React from "react";
 import { categories } from "../../backend/db/categories";
+import { Link } from "react-router-dom";
 
 const Main = () => {
   return (
@@ -17,9 +18,9 @@ const Main = () => {
           </h2>
 
           <button className="btn info-btn link-btn">
-            <a className="link-btn" href="productListing/productListing.html">
+            <Link className="link-btn" to="/products">
               Shop Now
-            </a>
+            </Link>
           </button>
         </div>
       </div>
