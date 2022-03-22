@@ -13,28 +13,28 @@ const VerticalCard = ({product}) => {
   } = product;
 
   return (
-    <div class="card-inner-body">
-      <div class="img-body">
+    <div className="card-inner-body">
+      <div className="img-body">
         <img id="card-img" src={imageSource} alt="" />
-        <span class="label-badge" id="label-badge">
+        <span className="label-badge" id="label-badge">
           Trending
         </span>
-        <button class="dismiss">
-          <i class="fas fa-heart fa-lg"></i>
+        <button className="dismiss">
+          <i className="fas fa-heart fa-lg"></i>
         </button>
       </div>
 
-      <div class="card-info flex">
-        <span class="card-title">{title}</span> <br />
-        <small class="card-rating" id="card-rating">
-          <i class="fas fa-star"></i> {rating}
+      <div className="card-info flex">
+        <span className="card-title">{title}</span> <br />
+        <small className="card-rating" id="card-rating">
+          <i className="fas fa-star"></i> {rating}
         </small>
-        <div class="price-wishlist flex">
-          <span class="current-price">₹{price}</span>
-          <small class="previous-price">₹2000</small>
-          <small class="discount">{discount}% off</small>
+        <div className="price-wishlist flex">
+          <span className="current-price">₹{price}</span>
+          <small className="previous-price">₹2000</small>
+          <small className="discount">{discount}% off</small>
         </div>
-        <button class="btn btn-wishlist info-btn ">
+        <button className="btn btn-wishlist info-btn ">
             Add to Cart
           </button>
       </div>
