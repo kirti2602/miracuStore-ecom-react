@@ -29,9 +29,14 @@
     justify-content: flex-start;
 }
 
-.info-btn{
+.btn-wishlist{
     width: 100%;
     padding: 0.5rem;
     margin-top: 1rem;
-    border-radius: 0.2rem;
+    border-radius: 0rem;
+}
+
+.card-outer-body:hover{
+    box-shadow: 0px 0px 0px 2px var(--primary-violet);
+    transition: 0.2s ease-out;
 }

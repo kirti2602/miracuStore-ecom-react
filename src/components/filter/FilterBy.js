@@ -78,7 +78,7 @@ const FilterBy = () => {
         </span>
 
         <span>
-          <input type="radio" name="sort" /> Popularity
+          <input type="radio" name="sort" /> Ratings
         </span>
       </div>
     </aside>
