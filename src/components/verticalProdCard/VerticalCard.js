@@ -4,7 +4,7 @@ import "./VerticalCard.css";
 const VerticalCard = ({product}) => {
 
   const {
-    _id,
+    // _id,
     imageSource,
     title,
     price,

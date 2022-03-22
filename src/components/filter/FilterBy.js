@@ -5,7 +5,7 @@ const FilterBy = () => {
     <aside className="aside">
       <div className="filter">
         <strong>Filters</strong>
-        <a href="">Clear</a>
+        <a href="sign.html">Clear</a>
       </div>
 
       <div className="slider-price">
